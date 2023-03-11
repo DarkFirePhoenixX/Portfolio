@@ -31,7 +31,8 @@ document.onkeydown = function (e) {
         }));
         const n = document.querySelectorAll('[name="theme"]');
         n.forEach((t => {
-            t.addEventListener("click", (() => {
+            t.parentElement.addEventListener("click", (() => {
+                t.checked = true;
                 var e;
                 e = t.id, localStorage.setItem("theme", e), document.getElementById("backgroundChange").className = t.id
             }))
