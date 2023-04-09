@@ -34,13 +34,31 @@ document.onkeydown = function (e) {
             t.parentElement.addEventListener("click", (() => {
                 t.checked = true;
                 var e;
-                e = t.id, localStorage.setItem("theme", e), document.getElementById("backgroundChange").className = t.id
+                e = t.id, localStorage.setItem("theme", e), document.body.className = t.id
+                if(document.body.classList.contains('dark')){
+                    document.documentElement.classList = ('scrollbarcolor-dark')
+                }
+                else if(document.body.classList.contains('light')){
+                    document.documentElement.classList = ('scrollbarcolor-light')
+                }
+                else if(document.body.classList.contains('orange')){
+                    document.documentElement.classList = ('scrollbarcolor-orange')
+                }
             }))
         })), document.onload = function () {
             const t = localStorage.getItem("theme");
             n.forEach((e => {
                 e.id === t && (e.checked = !0)
-            })), document.getElementById("backgroundChange").className = t
+            })), document.body.className = t
+            if(document.body.classList.contains('dark')){
+                document.documentElement.classList = ('scrollbarcolor-dark')
+            }
+            else if(document.body.classList.contains('light')){
+                document.documentElement.classList = ('scrollbarcolor-light')
+            }
+            else if(document.body.classList.contains('orange')){
+                document.documentElement.classList = ('scrollbarcolor-orange')
+            }
         }(), document.querySelectorAll(".a").forEach((t => {
             t.addEventListener("click", (function() {
             }))

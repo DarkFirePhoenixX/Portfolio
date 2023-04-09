@@ -214,6 +214,18 @@ pre {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--clr-hover1);
 }
+
+.scrollbarcolor-dark{
+  scrollbar-color: #20edf5 rgb(0, 0, 0) !important;
+}
+
+.scrollbarcolor-light{
+  scrollbar-color: #14e491 hsl(0 0% 90%) !important;
+}
+
+.scrollbarcolor-orange{
+  scrollbar-color: #ff6200 hsl(52, 100%, 58%) !important;
+}
 /* .mouse-trail {
   width: 10%;
   height: 10%;
