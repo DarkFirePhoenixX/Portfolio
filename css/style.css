@@ -62,7 +62,8 @@
   background-color: #000000;
   height: 400px;
   margin: 0;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 1.5rem;
   color: white;
   font: 1rem Inconsolata, monospace;
@@ -74,7 +75,8 @@
   background-image: radial-gradient(rgba(11, 105, 143, 0.75), black 120%);
   height: 400px;
   margin: 0;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 1.5rem;
   color: white;
   font: 1rem Inconsolata, monospace;
@@ -539,10 +541,10 @@ textarea {
 
 @media (max-width: 992px) {
   .console {
-    font-size: 1.5vw;
+    font-size: 2.4vw;
   }
   .consoleApp {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 }
 /*--------------------------------------------------------------
