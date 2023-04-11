@@ -538,8 +538,11 @@ textarea {
 }
 
 @media (max-width: 992px) {
-  .console,.consoleApp {
+  .console {
     font-size: 1.5vw;
+  }
+  .consoleApp {
+    font-size: 3vw;
   }
 }
 /*--------------------------------------------------------------
