@@ -129,6 +129,26 @@
 pre {
   margin: 0;
 }
+
+.gslide-description {
+  background: var(--clr-card-bg) !important;
+  font: 18px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-style: italic !important;
+
+}
+
+.gslide-title{
+  color: var(--clr-text1) !important;
+}
+
+.img-fluid{
+  padding: 1px 1px 1px !important;
+  background: var(--clr-text2) !important;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4) !important;
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4) !important;
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4) !important;
+}
+
 .dark { 
   --clr-body-bg1: #131313;
   --clr-body-bg: rgb(0, 0, 0);
