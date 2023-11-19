@@ -14,7 +14,7 @@ document.onkeydown = function () {
     }, document.addEventListener("DOMContentLoaded", (() => {
         let t = document.title;
         window.addEventListener("blur", (t => {
-            document.title = "Hey, come back :("
+            document.title = "Hey, come back 😢"
         })), window.addEventListener("focus", (e => {
             document.title = t
         }));
