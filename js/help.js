@@ -190,6 +190,18 @@ function writer(){
                                 showCursor: false
                             })
                         }
+                        const r10 = document.querySelector(".typed10");
+                        if (r10) {
+                            let e = r10.getAttribute("data-typed-items");
+                            e = e.split("#"), new Typed(".typed10", {
+                                strings: e,
+                                startDelay: 18000,
+                                typeSpeed: 1,
+                                loop: false,
+                                loopCount: Infinity,
+                                showCursor: false
+                            })
+                        }
                     }
             }
           }else{
@@ -276,6 +288,18 @@ function writer(){
                     showCursor: false
                 })
             }
+            const r10 = document.querySelector(".typed10");
+                        if (r10) {
+                            let e = r10.getAttribute("data-typed-items");
+                            e = e.split("#"), new Typed(".typed10", {
+                                strings: e,
+                                startDelay: 18000,
+                                typeSpeed: 1,
+                                loop: false,
+                                loopCount: Infinity,
+                                showCursor: false
+                            })
+                        }
         }
         };
         mobileAndTabletCheck();
